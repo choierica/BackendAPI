@@ -1,0 +1,43 @@
+{
+  "name": "cc_EricaChoi_BackendAPI",
+  "version": "1.0.0",
+  "description": "The focus of this assignment is to see how you would set up an API specifically for a web application.",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bookshelf": "^0.14.2",
+    "bookshelf-secure-password": "^3.1.0",
+    "dot": "^1.1.2",
+    "dotenv": "^8.0.0",
+    "env": "0.0.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.16.5",
+    "mongoose": "^5.5.11",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "pg": "^7.11.0",
+    "sqlite3": "^4.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axiomzen/cc_EricaChoi_BackendAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axiomzen/cc_EricaChoi_BackendAPI/issues"
+  },
+  "homepage": "https://github.com/axiomzen/cc_EricaChoi_BackendAPI#readme"
+}
