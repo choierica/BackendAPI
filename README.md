@@ -28,7 +28,7 @@ npm run dev
 This is the endpoint to create new user.
 
 ```javascript
-curl --data "email=test@axiomzen.co&password=axiomzen&firstName=Alex&lastName=Zimmerman"  http://localhost:3000/signup
+curl --data "email=test@gmail.com&password=test&firstName=Erica&lastName=C"  http://localhost:3000/signup
 ```
 
 The response body will return a JWT on success that can be used for other endpoints:
@@ -43,7 +43,7 @@ The response body will return a JWT on success that can be used for other endpoi
 This is the endpoint to sign in a user.
 
 ```javascript
-curl --data "email=test@axiomzen.co&password=axiomzen"  http://localhost:3000/login
+curl --data "email=test@gmail.com&password=test"  http://localhost:3000/login
 ```
 
 The response body will return a JWT on success that can be used for other endpoints:
@@ -68,9 +68,9 @@ The response body should look like:
     [
       {
         "id": 9,
-        "email": "test@axiomzen.co",
-        "firstName": "Alex",
-        "lastName": "Zimmerman",
+        "email": "test@gmail.com",
+        "firstName": "Erica",
+        "lastName": "C",
         "password_digest": "$2b$12$Z1DseLUz8/RuACmgti6shukytrtTMG9vP2572JfwUVpYI6UvP9X5m"
       }
     ]
