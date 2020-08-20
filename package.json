@@ -4,7 +4,7 @@
   "description": "The focus of this assignment is to see how you would set up an API specifically for a web application.",
   "main": "index.js",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "bookshelf": "^0.14.2",
